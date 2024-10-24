@@ -1,6 +1,6 @@
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'books', 'online-courses', 'contact']  // Updated section names
+const section_names = ['home', 'books', 'online-courses', 'contact']  // Section names
 
 window.addEventListener('DOMContentLoaded', event => {
     // Activate Bootstrap scrollspy on the main nav element
