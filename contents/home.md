@@ -1,7 +1,7 @@
 
 <br>
 Hello! <br>
-I currently work as an XVA trader for a major European investment bank in London having also previously worked as a fixed income algorithmic trader. This site is to showcase some of the projects I am working on and learning resources I make available. I am interested in many different fields of research but specialise in economics, machine learning, and financial markets.
+I currently work as an XVA trader for a major European investment bank in London having also previously worked as a fixed income algorithmic trader. This site is to showcase some of the projects I am working on and learning resources I make available. I am interested in many different fields of research but specialise in econometrics, machine learning, and financial markets.
 <br>
 <br>
 
@@ -12,11 +12,10 @@ I currently work as an XVA trader for a major European investment bank in London
 <br>
 
 #### Career
-- XVA Trader - 1 year
+- XVA trader - 1 year
 - Fixed income algorithmic trader - 1 year
 <br>
 <br>
 
 #### Research Interests
 Macroeconomics, machine learning, volatility forecasting, financial engineering. 
-
