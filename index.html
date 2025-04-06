@@ -135,6 +135,7 @@
         </div>
     </section>
 
+
     <!-- Books -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="books">
         <div class="container px-5">
@@ -176,6 +177,19 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Load papers markdown file and render its content in the Papers section
+        fetch('papers.md')
+            .then(response => response.text())
+            .then(markdown => {
+                document.getElementById('papers-md').innerHTML = marked.parse(markdown);
+            })
+            .catch(error => {
+                console.error('Error loading papers.md:', error);
+                document.getElementById('papers-md').innerHTML = '<p>Unable to load papers.</p>';
+            });
+    </script>  
 
 </body>
 
