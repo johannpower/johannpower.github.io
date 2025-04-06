@@ -178,7 +178,27 @@
         </div>
     </footer>
 
-    
+
+    <script>
+        console.log('Loading contents/papers.md...');
+        fetch('contents/papers.md')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+                return response.text();
+            })
+            .then(markdown => {
+                console.log('Markdown content loaded:', markdown);
+                document.getElementById('papers-md').innerHTML = marked.parse(markdown);
+            })
+            .catch(error => {
+                console.error('Error loading papers.md:', error);
+                document.getElementById('papers-md').innerHTML = '<p>Unable to load papers.</p>';
+            });
+    </script>   
+
+
 </body>
 
 </html>
