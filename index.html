@@ -178,19 +178,7 @@
         </div>
     </footer>
 
-    <script>
-        // Load papers markdown file and render its content in the Papers section
-        fetch('papers.md')
-            .then(response => response.text())
-            .then(markdown => {
-                document.getElementById('papers-md').innerHTML = marked.parse(markdown);
-            })
-            .catch(error => {
-                console.error('Error loading papers.md:', error);
-                document.getElementById('papers-md').innerHTML = '<p>Unable to load papers.</p>';
-            });
-    </script>  
-
+    
 </body>
 
 </html>
