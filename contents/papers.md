@@ -1,1 +1,1 @@
-- <strong>Power, J.</strong> (2025). <a href="/contents/papers/credit_macro_hedging.pdf" target="_blank">How to optimally macro hedge credit risk?</a>
+- <strong>Power, J.</strong> (2025). "How to optimally macro hedge credit risk?" <a href="/contents/papers/credit_macro_hedging.pdf" target="_blank">[View Here]</a>
