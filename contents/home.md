@@ -12,7 +12,7 @@ I currently work as an XVA trader for a major European investment bank in London
 <br>
 
 #### Career
-- XVA trader - 2 year
+- XVA trader - 2 years
 - Fixed income algorithmic trader - 1 year
 - FX & rates structuring - 1 year 
 <br>
