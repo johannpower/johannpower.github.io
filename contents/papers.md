@@ -1,1 +1,2 @@
 - <strong>Power, J.</strong> (2025). "How to optimally macro hedge credit risk?" <a href="/contents/papers/credit_macro_hedging.pdf" target="_blank">[View Here]</a>
+- <strong>Power, J.</strong> (2025). "Interest Rate Volatility Surface Diffusion Models and their Applications" <a href="/contents/papers/Volatility Surface Diffusion Models.pdf" target="_blank">[View Here]</a>
