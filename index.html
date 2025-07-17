@@ -68,8 +68,7 @@
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
                 <i class="bi-list"></i>
             </button>
@@ -135,7 +134,7 @@
     </section>
 
     <!-- Books -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="books">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="books">
         <div class="container px-5">
             <header>
                 <h2 id="books-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;BOOKS</h2>
@@ -186,25 +185,30 @@
         </div>
     </footer>
 
+    <!-- Scripts to load markdown -->
     <script>
-        console.log('Loading contents/papers.md...');
-        fetch('contents/papers.md')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok: ' + response.statusText);
-                }
-                return response.text();
-            })
-            .then(markdown => {
-                console.log('Markdown content loaded:', markdown);
-                document.getElementById('papers-md').innerHTML = marked.parse(markdown);
-            })
-            .catch(error => {
-                console.error('Error loading papers.md:', error);
-                document.getElementById('papers-md').innerHTML = '<p>Unable to load papers.</p>';
-            });
+        const sections = [
+            { id: 'papers', file: 'papers.md' },
+            { id: 'books', file: 'books.md' },
+            { id: 'notes', file: 'notes.md' },
+            { id: 'online-courses', file: 'online-courses.md' },
+            { id: 'contact', file: 'contact.md' }
+        ];
+        sections.forEach(sec => {
+            console.log(`Loading contents/${sec.file}...`);
+            fetch(`contents/${sec.file}`)
+                .then(resp => {
+                    if (!resp.ok) throw new Error(resp.statusText);
+                    return resp.text();
+                })
+                .then(md => {
+                    document.getElementById(`${sec.id}-md`).innerHTML = marked.parse(md);
+                })
+                .catch(err => {
+                    console.error(`Error loading ${sec.file}:`, err);
+                    document.getElementById(`${sec.id}-md`).innerHTML = '<p>Unable to load content.</p>';
+                });
     </script>
-
 </body>
 
 </html>
