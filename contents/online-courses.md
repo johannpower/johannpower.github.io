@@ -1,1 +1,1 @@
-Udemy: Fixed Income Algorithmic Trading [[View Here]](https://www.udemy.com/course/fixed-income-algorithmic-trading/?referralCode=74BA670A54E4C7B7998D)
+[Udemy: Fixed Income Algorithmic Trading](https://www.udemy.com/course/fixed-income-algorithmic-trading/?referralCode=74BA670A54E4C7B7998D)
