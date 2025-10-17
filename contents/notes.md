@@ -1,2 +1,2 @@
-[Central banks, inflation & monetary policy.](https://www.stuvia.com/en-gb/doc/8586672/central-banks-inflation-en-monetary-policy)
-[The Free Market Econmy.](https://www.stuvia.com/doc/8594046/the-market-system-as-a-general-equilibrium-efficiency-distribution-inequality-en-welfare)
+- [Central banks, inflation & monetary policy.](https://www.stuvia.com/en-gb/doc/8586672/central-banks-inflation-en-monetary-policy)
+- [The Free Market Econmy.](https://www.stuvia.com/doc/8594046/the-market-system-as-a-general-equilibrium-efficiency-distribution-inequality-en-welfare)
